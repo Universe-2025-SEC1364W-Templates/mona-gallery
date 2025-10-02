@@ -23,7 +23,7 @@ jobs:
         service:
           - name: auth
             dockerfile: docker/auth.Dockerfile
-            context: 
+            context: .
           - name: auth-ext
             dockerfile: docker/auth-ext.Dockerfile
             context: .
