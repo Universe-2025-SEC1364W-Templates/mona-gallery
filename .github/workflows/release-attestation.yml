@@ -74,5 +74,3 @@ jobs:
           platforms: linux/amd64
           cache-from: type=gha
           cache-to: type=gha,mode=max
-          provenance: true
-          sbom: true
